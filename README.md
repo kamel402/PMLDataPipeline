@@ -2,8 +2,9 @@
 
 This repo implements a workflow to detect macro-plastics in coastal waters using Sentinel 2 satellite data. 
 
-![example](images/example.png)
+![example](images/example.png)  
 
+![methodology](images/methodology.png)
 This project is the result of a collaboration between [Plymouth Marine Labratory](https://www.pml.ac.uk/) and the [Data Clinic](https://dataclinic.twosigma.com/) at [Two Sigma](https://www.twosigma.com/). It implements an extended version of the model described in the paper [Finding Plastic Patches in Coastal Waters using Optical Satellite Data](https://www.nature.com/articles/s41598-020-62298-z) as an [EOLearn](https://github.com/sentinel-hub/eo-learn) pipeline.
  
 The model uses Sentinel satellite data from coastal waters to detect floating macro-plastics. The scale of these plastics is much smaller than an individual Sentinel 2 pixel(~10m) so the model makes use of multi-band spectra for detection.
